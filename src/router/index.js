@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Index from '@/components/Index'
 import Top from '@/components/Top'
 import Info from '@/components/Info'
 
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Index',
+      component: Index
     },
     {
       path: '/top',
