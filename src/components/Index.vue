@@ -1,7 +1,7 @@
 <template>
   <div class="index">
     <h1>{{ msg }}</h1>
-    <span>元気の試し場</span>
+    <span>元気の試し場TEST</span>
     <h2>Essential Links</h2>
     <ul>
       <li>
