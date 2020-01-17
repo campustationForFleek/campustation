@@ -9,7 +9,6 @@
       </li>
       <li>
         <router-link to="/info">Go to info</router-link>
-          INFO
       </li>
       <li>
         <a
