@@ -5,12 +5,10 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <a href="/top">
-          TOP
-        </a>
+        <router-link to="/top">Go to top</router-link>
       </li>
       <li>
-        <a href="/info">
+        <router-link to="/info">Go to info</router-link>
           INFO
         </a>
       </li>
