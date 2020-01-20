@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Index from '@/components/Index'
 import Top from '@/components/Top'
 import Info from '@/components/Info'
+import EntryForm from '@/components/EntryForm'
 
 Vue.use(Router)
 
@@ -15,12 +16,16 @@ export default new Router({
       component: Index
     },
     {
-      path: '/top',
+      path: '/top/',
       component: Top
     },
     {
-      path: '/info',
+      path: '/info/',
       component: Info
+    },
+    {
+      path: '/entryform/',
+      component: EntryForm
     }
   ]
 })

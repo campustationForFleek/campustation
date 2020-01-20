@@ -7,7 +7,7 @@
         <router-link to="/">Go to index</router-link>
       </li>
       <li>
-        <router-link to="/top">Go to top</router-link>
+        <router-link to="/top/">Go to top</router-link>
       </li>
       <li>
         <a

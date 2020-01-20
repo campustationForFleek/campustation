@@ -1,5 +1,5 @@
 <template>
-  <div class="top">
+  <div class="entry">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -10,12 +10,7 @@
         <router-link to="/info/">Go to info</router-link>
       </li>
       <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
+        <router-link to="/top/">Go to top</router-link>
       </li>
     </ul>
   </div>
@@ -23,10 +18,10 @@
 
 <script>
 export default {
-  name: 'Top',
+  name: 'EntryForm',
   data () {
     return {
-      msg: 'Top'
+      msg: 'EntryForm'
     }
   }
 }

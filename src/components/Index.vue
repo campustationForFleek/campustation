@@ -5,18 +5,13 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <router-link to="/top">Go to top</router-link>
+        <router-link to="/top/">Go to top</router-link>
       </li>
       <li>
-        <router-link to="/info">Go to info</router-link>
+        <router-link to="/info/">Go to info</router-link>
       </li>
       <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
+        <router-link to="/entryform/">Go to entryform</router-link>
       </li>
     </ul>
     <h2>Ecosystem</h2>
