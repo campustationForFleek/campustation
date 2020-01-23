@@ -9,14 +9,6 @@
       <li>
         <router-link to="/info/">Go to info</router-link>
       </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
     </ul>
   </div>
 </template>

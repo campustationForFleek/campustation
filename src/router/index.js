@@ -5,6 +5,7 @@ import Index from '@/components/Index'
 import Top from '@/components/Top'
 import Info from '@/components/Info'
 import EntryForm from '@/components/EntryForm'
+import HtmlIndex from '@/components/language/html/Index'
 
 Vue.use(Router)
 
@@ -26,6 +27,10 @@ export default new Router({
     {
       path: '/entryform/',
       component: EntryForm
+    },
+    {
+      path: '/html/',
+      component: HtmlIndex
     }
   ]
 })

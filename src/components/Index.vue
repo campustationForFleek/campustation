@@ -1,8 +1,8 @@
 <template>
   <div class="index">
-    <h1>{{ msg }}</h1>
-    <span>元気の試し場TEST</span>
-    <h2>Essential Links</h2>
+    <h1>{{ site_name }}</h1>
+    <span>{{ site_name }}へようこそ</span><br>
+    <span>{{ site_name }}へようこそ</span><br>
     <ul>
       <li>
         <router-link to="/top/">Go to top</router-link>
@@ -12,6 +12,9 @@
       </li>
       <li>
         <router-link to="/entryform/">Go to entryform</router-link>
+      </li>
+      <li>
+        <router-link to="/html/">Go to html</router-link>
       </li>
     </ul>
     <h2>Ecosystem</h2>
@@ -57,7 +60,8 @@ export default {
   name: 'Index',
   data () {
     return {
-      msg: 'Index'
+      msg: 'Index',
+      site_name: 'CampuStation'
     }
   }
 }
@@ -65,5 +69,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-  @import "../assets/style/index.css";
+  @import "../assets/css/index.css";
 </style>

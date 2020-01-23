@@ -1,5 +1,5 @@
 <template>
-  <div class="info">
+  <div>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -15,10 +15,10 @@
 
 <script>
 export default {
-  name: 'Info',
+  name: 'HtmlIndex',
   data () {
     return {
-      msg: 'Info'
+      msg: 'HTML大学へようこそ！'
     }
   }
 }
