@@ -2,7 +2,17 @@
   <div class="index">
     <h1>{{ site_name }}</h1>
     <span>{{ site_name }}へようこそ</span><br>
-    <span>{{ site_name }}へようこそ</span><br>
+    <span></span><br>
+    <h2>学べる言語</h2>
+    <ul class="sample">
+      <li>
+        <router-link to="/html/"><img src="/static/img/common/img_html.png"><br>Go to html</router-link>
+      </li>
+      <li>
+        <router-link to="/css/"><img src="/static/img/common/img_css.png"><br>Go to css</router-link>
+      </li>
+    </ul>
+    <h2>Essential Links</h2>
     <ul>
       <li>
         <router-link to="/top/">Go to top</router-link>
@@ -12,9 +22,6 @@
       </li>
       <li>
         <router-link to="/entryform/">Go to entryform</router-link>
-      </li>
-      <li>
-        <router-link to="/html/">Go to html</router-link>
       </li>
     </ul>
     <h2>Ecosystem</h2>

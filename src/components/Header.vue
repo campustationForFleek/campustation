@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1>{{ site_name }}</h1>
+    <img src="/static/img/common/logo.png">
   </div>
 </template>
 
