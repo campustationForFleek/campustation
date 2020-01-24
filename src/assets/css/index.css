@@ -21,10 +21,19 @@ a {
     color: #42b983;
 }
 
-.sample img{
-    max-width: 150px;
+@media screen and (min-width: 641px) {
+	.header img {
+		width: 640px;
+	}
+    .sample img{
+        width: 180px;
+    }
 }
-
-.header img{
-    max-width: 640px;
+@media screen and (max-width: 640px) {
+	.header img {
+		width: 375px;
+	}
+	.sample img {
+		width: 150px;
+	}
 }
