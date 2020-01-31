@@ -1,4 +1,4 @@
-# static_contents_001
+# campustation
 
 > A Vue.js project
 
