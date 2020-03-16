@@ -9,6 +9,7 @@ import EntryForm from '@/components/EntryForm'
 import LanguageIndex from '@/components/language/Index'
 import HtmlIndex from '@/components/language/html/Index'
 import CssIndex from '@/components/language/css/Index'
+import JavascriptIndex from '@/components/language/javascript/Index'
 
 Vue.use(Router)
 
@@ -45,6 +46,11 @@ export default new Router({
           path: '/css/',
           name: 'Css',
           component: CssIndex
+        },
+        {
+          path: '/javascript/',
+          name: 'Javascript',
+          component: JavascriptIndex
         }
       ]
     }
