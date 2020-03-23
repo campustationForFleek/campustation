@@ -12,7 +12,7 @@
         <router-link to="/css/"><img src="/static/img/common/img_css.png"><br>Go to css</router-link>
       </li>
       <li>
-        <router-link to="/javascript/"><img src="/static/img/common/img_js.png"><br>Go to css</router-link>
+        <router-link to="/javascript/"><img src="/static/img/common/img_js.png"><br>Go to javascript</router-link>
       </li>
     </ul>
     <h2>Essential Links</h2>
