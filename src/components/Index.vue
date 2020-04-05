@@ -1,7 +1,7 @@
 <template>
   <div class="index">
     <h1>{{ site_name }}</h1>
-    <span>{{ site_name }}へようこそ!</span><br>
+    <span>{{ site_name }}へようこそ!!</span><br>
     <span></span><br>
     <h2>学べる言語!！</h2>
     <ul class="sample">
