@@ -1,7 +1,7 @@
 <template>
   <div class="entry">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>お問い合わせ</h2>
     <ul>
       <li>
         <router-link to="/">Go to index</router-link>
